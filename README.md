@@ -1,5 +1,8 @@
 Contributing to MoveYou Project
 =========================================
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/eb6867d5738c4311af9d8cfc02693d41)](https://www.codacy.com/app/mommel/moveyou?utm_source=github.com&utm_medium=referral&utm_content=verwirrteswesen/moveyou&utm_campaign=badger)
+
 ![Travis](https://travis-ci.org/verwirrteswesen/moveyou.svg?branch=master)
 
 MoveYou welcomes contributions to our [open source projects on Github](https://github.com/verwirrteswesen/moveyou).
