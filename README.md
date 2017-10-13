@@ -26,8 +26,15 @@ Installation
 -----------------------
 
 ## Android / Ios App
+Have npm and bower in place
+Install cordova ionic and karma-cli global 
+
+npm install -g cordova ionic
+npm install -g karma-cli
+
 You can run the app part by switching into the myApp folder and start with
-yarn install
+npm install
+bower install
 ionic serve
 
 
