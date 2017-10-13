@@ -1,0 +1,21 @@
+{
+  "name": "myApp",
+  "description": "MoveYou",
+  "main": "",
+  "authors": [
+    "verwirrteswesen mommel"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/verwirrteswesen/moveyou",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-mocks": "1.3.13"
+  }
+}
