@@ -1,3 +1,16 @@
+dist: trusty
+sudo: false
 language: java
 jdk:
   - oraclejdk8
+before_install:
+  - ulimit -c unlimited -S
+
+before_script: cd myserver
+
+script:
+  - mvn test
+
+cache:
+  directories:
+    - $HOME/.m2
