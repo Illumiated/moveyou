@@ -4,7 +4,7 @@ matrix:
       dist: trusty
       sudo: false
       jdk:
-        - oraclejdk8
+        - ibmjava8
       before_install:
         - ulimit -c unlimited -S
       before_script: 
