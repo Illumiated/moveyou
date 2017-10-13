@@ -14,6 +14,7 @@ matrix:
       cache:
         directories:
           - $HOME/.m2
+
     - language: node_js
       sudo: false
       node_js:
@@ -29,5 +30,3 @@ matrix:
         - npm install -g istanbul phantomjs-prebuilt
         - npm install
         - bower update
-       script:
-        - echo "run tests here :)"     
