@@ -9,6 +9,9 @@ Issues
 
 Feel free to submit issues and enhancement requests.
 
+Feel free to fix issues found in codacy https://www.codacy.com/app/verwirrteswesen/moveyou/issues
+
+
 Contributing
 ------------
 
