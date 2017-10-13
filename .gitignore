@@ -22,3 +22,7 @@
 hs_err_pid*
 /.DS_Store
 myServer/target/*
+myApp/bower_components/*
+myApp/node_modules/*
+myApp/dist/*
+myApp/.tmp
