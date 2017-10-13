@@ -1,6 +1,7 @@
 Contributing to MoveYou Project
 =========================================
 ![Travis](https://travis-ci.org/verwirrteswesen/moveyou.svg?branch=master)
+![Codacy Badge](https://api.codacy.com/project/badge/Grade/eb6867d5738c4311af9d8cfc02693d41)](https://www.codacy.com/app/mommel/moveyou?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=verwirrteswesen/moveyou&amp;utm_campaign=Badge_Grade)
 
 MoveYou welcomes contributions to our [open source projects on Github](https://github.com/verwirrteswesen/moveyou).
 
@@ -37,15 +38,20 @@ npm install -g cordova ionic
 npm install -g karma-cli
 
 You can run the app part by switching into the myApp folder and start with
+
 npm install
+
 bower install
+
 ionic serve
 
 
 ## Server / Backend
 You can run the server part by switching into the myServer folder and start with 
+
 mvn install
-java -jar target/myserver-0.1.0.jar
+
+java -jar target/myserver-0.1.0.jar server config.yml
 
 
 ## Tests
@@ -89,4 +95,5 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ### FAQ
 
 Where are tests to run?
+
 They are still missing :)
