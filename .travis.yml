@@ -1,16 +1,32 @@
-dist: trusty
-sudo: false
-language: java
 jdk:
   - oraclejdk8
-before_install:
-  - ulimit -c unlimited -S
+matrix:
+  include:
+    - language: java
+      dist: trusty
+      sudo: false
+      before_install:
+        - ulimit -c unlimited -S
+      before_script: 
+        - cd myserver
+      script:
+        - mvn test
+      cache:
+        directories:
+          - $HOME/.m2
 
-before_script: cd myserver
-
-script:
-  - mvn test
-
-cache:
-  directories:
-    - $HOME/.m2
+    - language: node_js
+      sudo: false
+      node_js:
+        - "5.1"
+      before_install:
+        - cd myApp
+      cache:
+        directories:
+          - $HOME/.npm
+          - $HOME/.ionic
+      install:
+        - npm install -g gulp bower cordova ionic 
+        - npm install -g istanbul phantomjs-prebuilt
+        - npm install
+        - bower update
