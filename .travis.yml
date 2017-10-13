@@ -1,3 +1,14 @@
+dist: trusty
+sudo: false
 language: java
 jdk:
   - oraclejdk8
+before_install:
+  - ulimit -c unlimited -S
+script:
+  - ./myserver/mvnw test -B
+  - ./myserver/mvnw site -pl docs -B
+
+cache:
+  directories:
+    - $HOME/.m2
