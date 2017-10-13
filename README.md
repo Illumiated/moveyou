@@ -2,17 +2,17 @@ Contributing to MoveYou Project
 =========================================
 ![Travis](https://travis-ci.org/verwirrteswesen/moveyou.svg?branch=master)
 ![Codacy Badge](https://api.codacy.com/project/badge/Grade/eb6867d5738c4311af9d8cfc02693d41)
-![Java](https://img.shields.io/badge/Java-8.0-red.svg)
-![Bower version](https://badge.fury.io/bo/badges.svg)
 
+Backend
 ![Java](https://img.shields.io/badge/Java-8.0-red.svg)
 ![Dropwizard](https://img.shields.io/badge/Dropwizard-1.2.0-orange.svg)
 ![maven](https://img.shields.io/badge/mvn-3.0.0-orange.svg)
 
-
+App
 ![NPM](https://img.shields.io/badge/npm-5.4.2-green.svg)
 ![bower](https://img.shields.io/badge/bower-1.8.2-blue.svg)
 
+Project
 ![Semver](http://img.shields.io/SemVer/0.1.0.png)
 ![GitHub license](https://img.shields.io/badge/license-Original%20BSD-blue.svg)
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
