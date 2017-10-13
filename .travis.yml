@@ -9,7 +9,7 @@ before_install:
 before_script: cd myserver
 
 script:
-  - ./mvn test
+  - mvn test
 
 cache:
   directories:
