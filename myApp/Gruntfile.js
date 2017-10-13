@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 
     karma: {
       options: {
-        configFile: 'test/karma-conf.js'
+        configFile: "test/karma-conf.js"
       },
       unit: {
         singleRun: true
@@ -40,13 +40,13 @@ module.exports = function(grunt) {
         livereload: true
       },
       karma: {
-        files: ['app/js/**/*.js', 'test/unit/*.js'],
-        tasks: ['karma:continuous:run']
+        files: ["app/js/**/*.js", "test/unit/*.js"],
+        tasks: ["karma:continuous:run"]
       }
       ,
       protractor: {
-        files: ['app/js/**/*.js', 'test/e2e/*.js'],
-        tasks: ['protractor:continuous']
+        files: ["app/js/**/*.js", "test/e2e/*.js"],
+        tasks: ["protractor:continuous"]
       }
     },
 
@@ -56,43 +56,43 @@ module.exports = function(grunt) {
           wait: false
         },
         args: []
-        // args: ['app/mockApi/apiserver.js']
+        // args: ["app/mockApi/apiserver.js"]
       }
     },
 
     connect: {
       options: {
         port: 9000,
-        hostname: 'localhost'
+        hostname: "localhost"
       },
       livereload: {
         options: {
           livereload: 35729,
           open: true,
-          base: ['app']
+          base: ["app"]
           
         }
       },
       test: {
         options: {
-          base: ['app']
+          base: ["app"]
         }
       }
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-connect');
-  grunt.loadNpmTasks('grunt-karma');
-  grunt.loadNpmTasks('grunt-protractor-runner');
-  grunt.loadNpmTasks('grunt-run');
+  grunt.loadNpmTasks("grunt-contrib-watch");
+  grunt.loadNpmTasks("grunt-contrib-connect");
+  grunt.loadNpmTasks("grunt-karma");
+  grunt.loadNpmTasks("grunt-protractor-runner");
+  grunt.loadNpmTasks("grunt-run");
 
-  grunt.registerTask('serve', ['karma:continuous:start', 'run:mock_server', 'connect:livereload', 'watch:karma']);
+  grunt.registerTask("serve", ["karma:continuous:start", "run:mock_server", "connect:livereload", "watch:karma"]);
 
-  grunt.registerTask('unit-test', ['karma:continuous:start', 'watch:karma']);
+  grunt.registerTask("unit-test", ["karma:continuous:start", "watch:karma"]);
   
-  grunt.registerTask('e2e-test', ['connect:test',  'protractor:continuous', 'watch:protractor']);
+  grunt.registerTask("e2e-test", ["connect:test",  "protractor:continuous", "watch:protractor"]);
 
-  grunt.registerTask('test', ['karma:unit:start', 'connect:test', 'run:mock_server', 'protractor:e2e']);
+  grunt.registerTask("test", ["karma:unit:start", "connect:test", "run:mock_server", "protractor:e2e"]);
 
 };
