@@ -26,3 +26,7 @@ myApp/bower_components/*
 myApp/node_modules/*
 myApp/dist/*
 myApp/.tmp
+/myserver/.idea
+/myserver/src/.DS_Store
+/myserver/dependency-reduced-pom.xml
+.DS_Store
