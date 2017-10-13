@@ -1,10 +1,10 @@
+jdk:
+  - oraclejdk8
 matrix:
   include:
     - language: java
       dist: trusty
       sudo: false
-      jdk:
-        - ibmjava8
       before_install:
         - ulimit -c unlimited -S
       before_script: 
