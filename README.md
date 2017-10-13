@@ -1,5 +1,6 @@
 Contributing to MoveYou Project
 =========================================
+![Travis](https://travis-ci.org/verwirrteswesen/moveyou.svg?branch=master)
 
 MoveYou welcomes contributions to our [open source projects on Github](https://github.com/verwirrteswesen/moveyou).
 
