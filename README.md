@@ -1,6 +1,22 @@
 Contributing to MoveYou Project
 =========================================
+
 ![Travis](https://travis-ci.org/verwirrteswesen/moveyou.svg?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/eb6867d5738c4311af9d8cfc02693d41)](https://www.codacy.com/app/mommel/moveyou?utm_source=github.com&utm_medium=referral&utm_content=verwirrteswesen/moveyou&utm_campaign=badger)
+
+Backend
+![Java](https://img.shields.io/badge/Java-8.0-red.svg)
+![Dropwizard](https://img.shields.io/badge/Dropwizard-1.2.0-orange.svg)
+![maven](https://img.shields.io/badge/mvn-3.0.0-orange.svg)
+
+App
+![NPM](https://img.shields.io/badge/npm-5.4.2-green.svg)
+![bower](https://img.shields.io/badge/bower-1.8.2-blue.svg)
+
+Project
+![Semver](http://img.shields.io/SemVer/0.1.0.png)
+![GitHub license](https://img.shields.io/badge/license-Original%20BSD-blue.svg)
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
 MoveYou welcomes contributions to our [open source projects on Github](https://github.com/verwirrteswesen/moveyou).
 
@@ -37,15 +53,20 @@ npm install -g cordova ionic
 npm install -g karma-cli
 
 You can run the app part by switching into the myApp folder and start with
+
 npm install
+
 bower install
+
 ionic serve
 
 
 ## Server / Backend
 You can run the server part by switching into the myServer folder and start with 
+
 mvn install
-java -jar target/myserver-0.1.0.jar
+
+java -jar target/myserver-0.1.0.jar server config.yml
 
 
 ## Tests
@@ -89,4 +110,5 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ### FAQ
 
 Where are tests to run?
+
 They are still missing :)
