@@ -45,6 +45,7 @@
     "grunt-karma": "^2.0.0",
     "grunt-protractor-runner": "^5.0.0",
     "grunt-run": "^0.8.0",
+    "hoek": "^5.0.3",
     "jasmine-core": "^2.8.0",
     "karma": "^1.7.1",
     "karma-chrome-launcher": "^2.2.0",
